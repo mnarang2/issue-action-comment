@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - 'release/*'
+      - 'maninder-*'
 jobs:
   merge-branch:
     runs-on: ubuntu-latest
